@@ -780,7 +780,7 @@ button.image = toleranceNone
 toleranceNoneButton = tk.Button(self, image=toleranceNone, command=lambda: tolerance(0.2, fourthBand, 20))
 toleranceNoneButton.place(x=280, y=397)
 
-self.title("Pysics")
+self.title("Resistor Color Coding")
 self.geometry("800x454")
 self.resizable(False,False)
 self.mainloop()
